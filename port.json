@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "eza",
+  "slug": "eza",
+  "group": "CLI & TUI",
+  "emoji": "📁",
+  "description": "Living Code for eza. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://eza.rocks",
+  "quick": "See installation instructions",
+  "aliases": [
+    "eza"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.yml",
+    "living-code-night.yml",
+    "living-code-paper.yml",
+    "living-code-signal.yml"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "eza running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "eza running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "eza running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "eza running Living Code Signal"
+    }
+  ]
+}
